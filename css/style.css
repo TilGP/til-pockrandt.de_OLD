@@ -4,6 +4,23 @@
     box-sizing: border-box;
 }
 
+html{
+    height: 100%;
+}
+
+body{
+    background: rgb(63, 26, 109);
+    background: -webkit-linear-gradient( to left top, rgb(63, 26, 109), rgba(4,0,99,1));
+    background: -moz-linear-gradient( to left top, rgb(63, 26, 109), rgba(4,0,99,1));
+    background: -ms-linear-gradient( to left top, rgb(63, 26, 109), rgba(4,0,99,1));
+    background: -o-linear-gradient( to left top, rgb(63, 26, 109), rgba(4,0,99,1));
+    background: linear-gradient(to left top, rgb(63, 26, 109), rgba(4,0,99,1));
+    background-repeat:no-repeat;
+    background-size: cover;
+
+    color: white;
+}
+
 nav{
     display: flex;
     justify-content: space-around;
