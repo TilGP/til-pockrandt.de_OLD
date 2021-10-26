@@ -187,49 +187,14 @@ header nav ul li:hover{
 
 /* CONTACT *************/
 
-form input, textarea{
-    font-family: 'Roboto Slab' sans-serif;
-    font-size: 15px;
+#contact li{
     margin-bottom: 10px;
-    border-radius: 2px;
-    border: 2px solid;
-    border-color: #494949;
-    outline: none;
 }
-
-form input:first-child{
-    margin-top: 10px;
+#contact li a{
+    opacity: 0.8;
 }
-
-form input{
-    width: 552px;
-    height: 30px;
-}
-form textarea{
-    width: 550px;
-    height: 200px;
-    resize: none;
-}
-
-.input_text{
-    color: #494949;
-    padding-left: 10px;
-}
-
-::-webkit-input-placeholder {color: #999999;}
-::-moz-placeholder {color: #999999;}
-:-ms-input-placeholder {color: #999999;}
-:-moz-placeholder {color: #999999;}
-
-.button{
-    background-color: #f0f0f0;
-    color: #494949;
-    width: 566px;
-    height: 50px;
-}
-.button:hover{
-    background-color: #494949;
-    color: #f0f0f0;
+#contact li a:hover{
+    opacity: 1;
 }
 
 /* FOOTER *************/
