@@ -95,8 +95,7 @@ header nav ul li:hover{
 /* HOME *************/
 
 #home{
-    background: url(../img/landing.png);
-    background-position: center center;
+    background: linear-gradient(to bottom, white, #949494);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -109,12 +108,16 @@ header nav ul li:hover{
     font-size: 25px;
     color: black;
 }
-#home img{
-    width: 32px;
-    margin-top: 150px;
+#home h2 a{
+    color: black;
+}
+#home a i{
+    width: 100%;
+    display: inline-block;
+    margin: 150px auto 0px auto;
     opacity: 0.7;
 }
-#home img:hover{
+#home a i:hover{
     opacity: 1;
 }
 
