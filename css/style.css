@@ -261,6 +261,9 @@ footer p{
         opacity: 0%;
         float: none;
     }
+    .nav-links li a{
+        font-size: 25px;
+    }
 
     #logo{
         margin-left: 2%;
