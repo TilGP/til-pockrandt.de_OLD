@@ -211,7 +211,6 @@ header nav ul li:hover{
 #contact{
     background: linear-gradient(to bottom, #f0f0f0, #949494);
     background-size: cover;
-    background-attachment: fixed;
 }
 #contact ul{
     padding-left: 0px;;
@@ -297,6 +296,13 @@ footer p{
 
     #contact{
         min-height: 55%;
+    }
+    #contact ul{
+        margin-bottom: 0px;
+    }
+    #contact ul li{
+        margin: 0px;
+        padding-bottom: 10px;
     }
 }
 @keyframes navLinkFade{
