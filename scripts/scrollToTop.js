@@ -1,14 +1,14 @@
 //Get the button:
-mybutton = document.getElementById("scrollToTopBtn");
+scrolltToTopBtn = document.getElementById("scrollToTopBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {showHideScrollToTopBtn()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
+function showHideScrollToTopBtn() {
+  if (document.body.scrollTop > 20 && getWidth() > 768 || document.documentElement.scrollTop > 20 && getWidth() > 768) {
+    scrolltToTopBtn.style.display = "block";
   } else {
-    mybutton.style.display = "none";
+    scrolltToTopBtn.style.display = "none";
   }
 }
 
@@ -16,4 +16,14 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-} 
+}
+
+function getWidth() {
+  if (self.innerWidth) {
+    return self.innerWidth;
+  }else if (document.documentElement && document.documentElement.clientWidth){
+    return document.documentElement.clientWidth;
+  }else if(document.body){
+    return document.body;
+  }
+}
