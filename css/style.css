@@ -213,14 +213,16 @@ header nav ul li:hover{
     background-size: cover;
     background-attachment: fixed;
 }
-
-#contact li{
+#contact ul{
+    padding-left: 0px;;
+}
+#contact ul li{
     margin-bottom: 10px;
 }
-#contact li a{
+#contact ul li a{
     opacity: 0.8;
 }
-#contact li a:hover{
+#contact ul li a:hover{
     opacity: 1;
 }
 
