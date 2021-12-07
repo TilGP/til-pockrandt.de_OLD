@@ -1,5 +1,4 @@
 const navSlide = () => {
-  if (getWidth() < 768){
     if (getWidth() < 768){
       const burger = document.querySelector('.burger');
       const nav = document.querySelector('.nav-links');
@@ -17,7 +16,6 @@ const navSlide = () => {
           }
       });
     }
-  }
 }
 
 function getWidth() {
