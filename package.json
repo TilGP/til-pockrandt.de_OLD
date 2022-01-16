@@ -1,0 +1,26 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TilGP/til-pockrandt.de.git"
+  },
+  "author": "TilGP (til-pockrandt.de)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TilGP/til-pockrandt.de/issues"
+  },
+  "homepage": "https://github.com/TilGP/til-pockrandt.de#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
