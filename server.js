@@ -9,7 +9,6 @@ router.get('/', (req, res) => {
 })
 
 router.get('*', function (req, res) {
-    console.log(req.url);
     res.render('layout.ejs', {url: req.url});
 })
 
