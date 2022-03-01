@@ -8,6 +8,10 @@ router.get('/', (req, res) => {
     res.redirect('index');
 })
 
+router.get('/favicon.ico', (req, res) => {
+    res.sendFile('static/public/img/logo');
+})
+
 router.get('*', function (req, res) {
     res.render('layout.ejs', {url: req.url});
 })
