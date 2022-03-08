@@ -1,51 +1,132 @@
 <!--Home-->
 
-<section id="home">
-    <hr>
-    <h1 id="name">Til Georg Pockrandt</h1>
-    <h2>Schüler am <a href="bszet.de">BSZ für Elektrotechnik</a> <br><b>Diese Seite ist noch in Entwicklung und noch nicht fertig</b></h2>
-    <a href="#about">
-        <i class="fas fa-arrow-alt-circle-down fa-5x" id="scrollToBottomBtn"></i>
+<section class="d-grid align-items-center min-vh-100 first-section" id="Startseite">
+    <div style="margin-bottom: 10%;">
+        <h1 class="primary-text text-uppercase">Til Georg Pockrandt</h1>
+        <h2 class="text-secondary text-uppercase">Schüler am <a href="bszet.de">BSZ für Elektrotechnik</a></h2>
+    </div>
+    <a href="#Über Mich">
+        <i class="fas fa-arrow-alt-circle-down fa-5x hover-opacity-80 opacity-50 d-inline-block" id="scrollToBottomBtn"></i>
     </a>
-    <i onclick="topFunction()" class="fas fa-arrow-alt-circle-up fa-5x" id="scrollToTopBtn"></i>
+    <i onclick="topFunction()" class="fas fa-arrow-alt-circle-up fa-5x z-index-sticky hover-opacity-80 opacity-50 d-none" style="right: 30px; position: fixed; bottom: 20px;" id="scrollToTopBtn"></i>
 </section>
 
 <!--About-->
 
-<section id="about">
-    <h3>Über mich</h3>
-    <hr>
-    <img src="static/img/avatar.png" alt="Avatar">
-    <h4>Til Georg Pockrandt</h4>
-    <p>Hallo, Ich bin 17 Jahre alt und das ist meine Webseite. <br> Es ist noch nicht sehr viel hier, aber ich werde nach und nach Projekte hier dokumentieren.</p>
+<section class="d-grid align-items-center min-vh-100 section" id="Über Mich">
+    <div>
+        <h3 class="text-uppercase primary-text">Über mich</h3>
+        <hr class="ms-auto me-auto mb-5 mt-0" style="width: 5rem; height: .25rem; background-color: var(--bs-gray-800);">
+        <img class="hover-scale-1 d-inline" src="static/img/avatar.png" alt="Avatar">
+        <h4 class="mt-5">Til Georg Pockrandt</h4>
+        <p>Hallo, Ich bin 17 Jahre alt und das ist meine Webseite. <br> Es ist noch nicht sehr viel hier, aber ich werde nach und nach Projekte hier dokumentieren.</p>
+    </div>
 </section>
 
 <!--Projects-->
 
-<section id="projects">
-    <h3>Projekte</h3>
-    <hr>
-    <div>
-        <ul>
-            <li><a href="https://github.com/TilGP/website"><img src="https://via.placeholder.com/280x170" alt="Placeholder_IMG_280x170"></a></li>
-            <li><a href="#"><img src="https://via.placeholder.com/280x170" alt="Placeholder_IMG_280x170"></a></li>
-            <li><a href="#"><img src="https://via.placeholder.com/280x170" alt="Placeholder_IMG_280x170"></a></li>
-            <li><a href="#"><img src="https://via.placeholder.com/280x170" alt="Placeholder_IMG_280x170"></a></li>
-            <li><a href="#"><img src="https://via.placeholder.com/280x170" alt="Placeholder_IMG_280x170"></a></li>
-            <li><a href="#"><img src="https://via.placeholder.com/280x170" alt="Placeholder_IMG_280x170"></a></li>
-        </ul>
+<section class="d-grid align-items-center min-vh-100 section" id="Projekte">
+    <div class="container">
+        <h3 class="text-uppercase primary-text">Projekte</h3>
+        <hr class="ms-auto me-auto mb-5 mt-0" style="width: 5rem; height: .25rem; background-color: var(--bs-gray-800);">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col mb-2">
+                <div class="card text-start p-0">
+                    <img src="https://via.placeholder.com/280x170" alt="Placeholder_IMG_280x170" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Diese Webseite</h5>
+                        <p class="card-text">Eine wilde Mischung aus eigenem CSS, Bootstrap und JavaScript.</p>
+                        <a href="https://github.com/TilGP/til-pockrandt.de" class="btn btn-primary">Zum Code!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-2">
+                <div class="card text-start p-0">
+                    <img src="https://via.placeholder.com/280x170" alt="Placeholder_IMG_280x170" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Diese Webseite</h5>
+                        <p class="card-text">Eine wilde Mischung aus eigenem CSS, Bootstrap und JavaScript.</p>
+                        <a href="https://github.com/TilGP/til-pockrandt.de" class="btn btn-primary">Zum Code!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-2">
+                <div class="card text-start p-0">
+                    <img src="https://via.placeholder.com/280x170" alt="Placeholder_IMG_280x170" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Diese Webseite</h5>
+                        <p class="card-text">Eine wilde Mischung aus eigenem CSS, Bootstrap und JavaScript.</p>
+                        <a href="https://github.com/TilGP/til-pockrandt.de" class="btn btn-primary">Zum Code!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-2">
+                <div class="card text-start p-0">
+                    <img src="https://via.placeholder.com/280x170" alt="Placeholder_IMG_280x170" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Diese Webseite</h5>
+                        <p class="card-text">Eine wilde Mischung aus eigenem CSS, Bootstrap und JavaScript.</p>
+                        <a href="https://github.com/TilGP/til-pockrandt.de" class="btn btn-primary">Zum Code!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-2">
+                <div class="card text-start p-0">
+                    <img src="https://via.placeholder.com/280x170" alt="Placeholder_IMG_280x170" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Diese Webseite</h5>
+                        <p class="card-text">Eine wilde Mischung aus eigenem CSS, Bootstrap und JavaScript.</p>
+                        <a href="https://github.com/TilGP/til-pockrandt.de" class="btn btn-primary">Zum Code!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-2">
+                <div class="card text-start p-0">
+                    <img src="https://via.placeholder.com/280x170" alt="Placeholder_IMG_280x170" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Diese Webseite</h5>
+                        <p class="card-text">Eine wilde Mischung aus eigenem CSS, Bootstrap und JavaScript.</p>
+                        <a href="https://github.com/TilGP/til-pockrandt.de" class="btn btn-primary">Zum Code!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-2">
+                <div class="card text-start p-0">
+                    <img src="https://via.placeholder.com/280x170" alt="Placeholder_IMG_280x170" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Diese Webseite</h5>
+                        <p class="card-text">Eine wilde Mischung aus eigenem CSS, Bootstrap und JavaScript.</p>
+                        <a href="https://github.com/TilGP/til-pockrandt.de" class="btn btn-primary">Zum Code!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-2">
+                <div class="card text-start p-0">
+                    <img src="https://via.placeholder.com/280x170" alt="Placeholder_IMG_280x170" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Diese Webseite</h5>
+                        <p class="card-text">Eine wilde Mischung aus eigenem CSS, Bootstrap und JavaScript.</p>
+                        <a href="https://github.com/TilGP/til-pockrandt.de" class="btn btn-primary">Zum Code!</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
     </div>
 </section>
 
 <!--Contact-->
 
-<section id="contact">
-    <h3>Kontakt</h3>
-    <hr>
-
-    <ul>
-        <li>E-Mail: <a href="mailto:tp@til-pockrandt.de">tp@til-pockrandt.de</a></li>
-        <li>Github: <a href="https://github.com/TilGP" target="_blank">TilGP</a></li>
-    </ul>
-    <script src="static/scripts/scrollToTop.js"></script>
+<section class="d-grid align-items-center min-vh-100 section last-section" id="Kontakt">
+    <div>
+        <h3 class="text-uppercase primary-text">Kontakt</h3>
+        <ul>
+            <li>E-Mail: <a class="text-uppercase" href="mailto:tp@til-pockrandt.de">tp@til-pockrandt.de</a></li>
+            <li>Github: <a class="text-uppercase" href="https://github.com/TilGP" target="_blank">TilGP</a></li>
+        </ul>
+    </div>
 </section>
+
+<script src="static/scripts/scrollToTop.js"></script>
