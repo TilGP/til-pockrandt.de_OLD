@@ -5,16 +5,13 @@ scrolltToTopBtn = document.getElementById('scrollToTopBtn');
 window.onscroll = function() {showHideScrollToTopBtn()};
 
 function showHideScrollToTopBtn() {
-  console.log('called')
   if (document.body.scrollTop > 20 && getWidth() > 768 || document.documentElement.scrollTop > 20 && getWidth() > 768) {
     scrolltToTopBtn.classList.remove("d-none");
-    console.log('added');
     scrolltToTopBtn.classList.add("d-block");
     
   } else {
     scrolltToTopBtn.classList.add("d-none");
     scrolltToTopBtn.classList.remove("d-block");
-    console.log('removed');
   }
 }
 
