@@ -3,4 +3,4 @@
 ## TODO
 
 - [ ] Logo design
-- [ ] Bild für Projekt link für die Webseite
+- [ ] Bilder für die Projekte
